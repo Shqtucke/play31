@@ -12,6 +12,7 @@
 		DCE3C42C206EEDA10053E99B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE3C42B206EEDA10053E99B /* Assets.xcassets */; };
 		DCE3C42F206EEDA10053E99B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE3C42D206EEDA10053E99B /* LaunchScreen.storyboard */; };
 		DCE3C43A206EEFDE0053E99B /* CustomTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE3C439206EEFDE0053E99B /* CustomTab.swift */; };
+		DCE3C43C206FB89C0053E99B /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE3C43B206FB89C0053E99B /* CategoryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DCE3C42E206EEDA10053E99B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCE3C430206EEDA10053E99B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCE3C439206EEFDE0053E99B /* CustomTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTab.swift; sourceTree = "<group>"; };
+		DCE3C43B206FB89C0053E99B /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		DCE3C437206EEF4C0053E99B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DCE3C43B206FB89C0053E99B /* CategoryCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				DCE3C43A206EEFDE0053E99B /* CustomTab.swift in Sources */,
 				DCE3C427206EEDA10053E99B /* HomePageVC.swift in Sources */,
 				DCE3C425206EEDA10053E99B /* AppDelegate.swift in Sources */,
+				DCE3C43C206FB89C0053E99B /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

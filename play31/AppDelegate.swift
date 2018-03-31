@@ -19,9 +19,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
-        window?.rootViewController = CustomTab()
+        let layout = UICollectionViewFlowLayout()
+        let homePage = HomePageVC(collectionViewLayout: layout)
+        window?.rootViewController = UINavigationController(rootViewController: homePage)
+
+        //window?.rootViewController = CustomTab()
         return true
     }
+
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
